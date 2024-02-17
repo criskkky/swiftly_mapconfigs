@@ -10,7 +10,8 @@
     <a href="https://github.com/criskkky/swiftly_mapconfigs/pulls">Contribute Code</a>
   </p>
 </p>
-  <p align="center"><img alt="Downloads" src="https://img.shields.io/github/downloads/criskkky/swiftly_mapconfigs/total?style=for-the-badge&color=cyan">
+  <p align="center">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/criskkky/swiftly_mapconfigs/total?style=for-the-badge&color=cyan">
   <img alt="Contributors" src="https://img.shields.io/github/contributors/criskkky/swiftly_mapconfigs?color=cyan&style=for-the-badge">
   <img alt="Issues" src="https://img.shields.io/github/issues/criskkky/swiftly_mapconfigs?style=for-the-badge&color=cyan">
 <br>
