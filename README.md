@@ -19,7 +19,9 @@
   </p>
 
 ### How it works? 🤨
-This CS2 plugin facilitates the search for your desired configuration file located in `/game/csgo/cfg/MapConfigs/HERE.cfg`. It apply these configurations to the current map, initiating the search from longer configurations to shorter ones. This approach allows you to set up specific map configurations or connect them all using a common prefix.
+This CS2 plugin applies configurations to the current map, initiating the search from longer configurations to shorter ones. This approach allows you to set up specific map configurations or connect them all using a common prefix.
+
+Your specific map configurations must be located in `/game/csgo/cfg/MapConfigs/HERE.cfg` where HERE is the map name or prefix.
 
 **For example, given the following maplist:**
 > `aim_deagle_lego` :: `aim_redline_s2` :: `aim_awp_lego` :: `aim_headshot_kill` :: `de_dust2` :: `de_mirage`
@@ -44,7 +46,9 @@ This CS2 plugin facilitates the search for your desired configuration file locat
 ### Installation 📦
 1. Download [latest release](https://github.com/criskkky/swiftly_mapconfigs/releases/latest).
 2. Everything is drag & drop, so i think you can do it!
-3. Setup your personal maps/prefixes configurations in `/game/csgo/cfg/MapConfigs/HERE.cfg`, ensuring that the filename fits your chosen map/prefix.
+3. Do an initial plugin load to generate the necessary files or manually create the `/game/csgo/cfg/MapConfigs/` directory.
+4. Setup your configurations per map inside the generated directory ensuring that the file name matches the map name or prefix.
+5. Ready!
 
 ### Example 👨🏻‍🏫
 ```cfg
@@ -57,7 +61,7 @@ exec otherconfigmaybe.cfg
 👀 Don't forget to set the correct filename; for example, in this case, the file must be named `de_.cfg`.
 
 ### Configuring the plugin 👨🏻‍💻
-- Doesn't need additional config ✅
+- Doesn't need additional config than the one explained above ✅
 
 ### Todo List 🎯
 - Fix [issues](https://github.com/criskkky/swiftly_mapconfigs/issues) if there's any
