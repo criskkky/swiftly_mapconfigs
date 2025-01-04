@@ -12,5 +12,5 @@ function GetPluginName()
 end
 
 function GetPluginWebsite()
-  return "https://github.com/criskkky/swiftly_mapconfigs"
+  return "https://github.com/criskkky/sw-mapconfigs"
 end

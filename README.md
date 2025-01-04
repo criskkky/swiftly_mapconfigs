@@ -3,17 +3,17 @@
   <p align="center">
     Make individualized configuration files for each map, or connect them all to a common prefix configuration.
     <br/>
-    <a href="https://github.com/criskkky/swiftly_mapconfigs/issues">Report Bug</a>
+    <a href="https://github.com/criskkky/sw-mapconfigs/issues">Report Bug</a>
     -
-    <a href="https://github.com/criskkky/swiftly_mapconfigs/issues">Request Feature</a>
+    <a href="https://github.com/criskkky/sw-mapconfigs/issues">Request Feature</a>
     -
-    <a href="https://github.com/criskkky/swiftly_mapconfigs/pulls">Contribute Code</a>
+    <a href="https://github.com/criskkky/sw-mapconfigs/pulls">Contribute Code</a>
   </p>
 </p>
   <p align="center">
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/criskkky/swiftly_mapconfigs/total?style=for-the-badge&color=cyan">
-  <img alt="Contributors" src="https://img.shields.io/github/contributors/criskkky/swiftly_mapconfigs?color=cyan&style=for-the-badge">
-  <img alt="Issues" src="https://img.shields.io/github/issues/criskkky/swiftly_mapconfigs?style=for-the-badge&color=cyan">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/criskkky/sw-mapconfigs/total?style=for-the-badge&color=cyan">
+  <img alt="Contributors" src="https://img.shields.io/github/contributors/criskkky/sw-mapconfigs?color=cyan&style=for-the-badge">
+  <img alt="Issues" src="https://img.shields.io/github/issues/criskkky/sw-mapconfigs?style=for-the-badge&color=cyan">
 <br>
 <sub>Made by: <a href="https://github.com/criskkky" target="_blank">@criskkky</a> (Me 🤪) ✦ Special thanks to: <a href="https://github.com/skuzzis" target="_blank">@skuzzis</a> (API teaching 💜)</sub>
   </p>
@@ -44,7 +44,7 @@ Your specific map configurations must be located in `/game/csgo/cfg/MapConfigs/H
 3. [Swiftly](https://github.com/swiftly-solution/swiftly/releases/latest)
 
 ### Installation 📦
-1. Download [latest release](https://github.com/criskkky/swiftly_mapconfigs/releases/latest).
+1. Download [latest release](https://github.com/criskkky/sw-mapconfigs/releases/latest).
 2. Everything is drag & drop, so i think you can do it!
 3. Do an initial plugin load to generate the necessary files or manually create the `/game/csgo/cfg/MapConfigs/` directory.
 4. Setup your configurations per map inside the generated directory ensuring that the file name matches the map name or prefix.
@@ -64,9 +64,9 @@ exec otherconfigmaybe.cfg
 - Doesn't need additional config than the one explained above ✅
 
 ### Todo List 🎯
-- Fix [issues](https://github.com/criskkky/swiftly_mapconfigs/issues) if there's any
+- Fix [issues](https://github.com/criskkky/sw-mapconfigs/issues) if there's any
 
 ### Problems using this? 😔
 If you really need help with something that isn't explained here reach me through:
 1. @crisky [Discord](<https://discord.com/users/404372759028957231>) / [GitHub](<https://github.com/criskkky>)
-2. Opening an [issue](https://github.com/criskkky/swiftly_mapconfigs/issues)
+2. Opening an [issue](https://github.com/criskkky/sw-mapconfigs/issues)
