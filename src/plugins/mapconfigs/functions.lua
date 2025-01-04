@@ -19,7 +19,8 @@ function ExecuteConfig(mapName)
     table.sort(ConfigFiles, function(a, b)
         return #a > #b
     end)
-    for _, configFile in ipairs(ConfigFiles) do
+    for i = 1, #ConfigFiles do
+        local configFile = ConfigFiles[i]
         local fileName = configFile:match(".*/(.-)%.cfg$")
 
         if mapName:find(fileName, 1, true) then
