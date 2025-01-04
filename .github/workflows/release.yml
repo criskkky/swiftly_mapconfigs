@@ -6,7 +6,7 @@ on:
 env:
   PLUGIN_NAME: mapconfigs
   SOURCE_DIR: ./src
-  INSTALL_PATH: /game/csgo/addons/swiftly/
+  INSTALL_PATH: /game/
 
 jobs:
   generate-release:
@@ -53,8 +53,21 @@ jobs:
 
       - name: Create ZIP file
         run: |
+          # Ensure we're in the correct source directory
           cd ${{ env.SOURCE_DIR }}
-          zip -r ../${{ env.PLUGIN_NAME }}-${{ env.NEW_VERSION }}.zip .
+
+          # Check if the csgo/addons/swiftly directory doesn't exist and create it
+          mkdir -p csgo/addons/swiftly/
+
+          # Copy the plugin files to the csgo/addons/swiftly directory
+          # Exclude the csgo directory itself to avoid recursion
+          find . -maxdepth 1 -mindepth 1 ! -name csgo -exec cp -r {} csgo/addons/swiftly/ \;
+
+          # Create the folder structure for the map config files
+          mkdir -p csgo/cfg/MapConfigs
+
+          # Create a zip file for the plugin
+          zip -r ../${{ env.PLUGIN_NAME }}-${{ env.NEW_VERSION }}.zip csgo/
 
       - name: Get recent commit messages since last release
         id: get_commits
